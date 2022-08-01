@@ -1,0 +1,374 @@
+@media (max-width:576px)
+{
+ body{
+    overflow-x: hidden !important;
+ }
+
+    #Header{
+        display: none;
+    }
+    #headerPhone{
+        display: flex !important;
+        justify-content: center;
+        align-items: center;
+        padding: 18px 0;
+        background-color: #EEEEEE;
+
+        .left{
+          
+            
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+            
+        .sell-div,.usd-div{
+            display: inline-block;
+            margin-right: 24px;
+            cursor: pointer;
+           
+            .sell{
+                color: #656565;
+            }
+        }
+
+
+            .usd-div{
+                margin-right: 10px;
+                a{
+                    color: #656565;
+                }
+            }
+
+
+
+
+        }
+
+
+  
+        
+
+    }
+
+
+    .header-main-phone{
+       background-color: #0465D2; 
+       padding: 25px;
+        display:  block !important;
+
+       i{
+        font-size: 30px;
+        color: white;
+        cursor: pointer;
+       }
+    }
+
+    .slider{
+        .img-slide{
+            width: 300px;
+            height: 300px;
+            object-fit: contain;
+        }
+       .first-slide{
+        .all{
+            flex-direction: column;
+        }
+       }
+       .second-slide{
+        .all{
+            flex-direction: column;
+        }
+       }
+        
+    }
+
+    #timerzone{
+        display:block;
+        width: 100%;
+        margin-right: 90px ;
+        left: -10%;
+        .timer{
+            display: flex;
+            flex-direction: column;
+        }
+        .view-more{
+            display: none;
+        }
+    }
+   #Products{
+    margin-top: 120px;
+   .all{
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      align-items: center;
+      flex-wrap: wrap;
+
+      .box{
+        width: 100%;
+       }
+   }
+   
+   
+   }
+
+
+#Deals{
+    margin-bottom: 20px;
+   .box1{
+    width: 100%;
+    margin: 0 auto;
+    width: 350px !important;
+   }
+   .box2{
+    width: 100%;
+    margin: 0 auto;
+    width: 350px !important;
+   }
+
+   .products-slider{
+    .item{
+        width: 100%;
+        .box{
+            width: 100%;
+            img{
+                width: 100px !important;
+            }
+        }
+    }
+   }
+}
+
+
+#Collection{
+    margin-left: 40px;
+    
+    .menu{
+        padding: 10px 25px !important;
+        text-align: center;
+        width: 80 !important;
+        
+        p{
+            margin-left: 10px;
+            a{
+                font-size: 10px;
+                
+            }
+        }
+      
+    }
+    .flash{
+       display: none;
+    }
+    .box{
+        width: 90%;
+        margin: 0 auto;
+        margin-bottom: 10px;
+    }
+}
+
+#Contact{
+    .div{
+        background-color: #fff !important;
+        
+        border-radius: 27px !important;
+        padding: 12px 123px !important;
+    }
+    
+}
+
+#TalkUs{
+    .bottom{
+        width: 100%;
+        input{
+            width: 100%;
+           margin-right: 40px !important;
+           margin-bottom: 10px !important;
+           
+           
+        }
+        .submit{
+            background: var(--theme-primary);
+            padding: 20px 50px;
+            margin-top: 25px;
+            width: 40%;
+        }
+    }
+}
+
+
+#MyAccount{
+    .home-account{
+        width: 41% !important;
+    }
+}
+
+#Register{
+    .all{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        .login{
+            width: 80%;
+            margin-left: 20px;
+        }
+        .register{
+            width: 80%;
+            margin-right: 27px;
+            margin-top: 20px;
+        }
+    }
+}
+
+
+#elementor_create{
+    display: flex;
+    flex-direction: column;
+    
+    .build-elementor-cart{
+        width: 100% !important;
+    }
+    .create-customize-cart{
+        width: 100% !important;
+    }
+}
+
+#totalBox{
+    margin-left: 12% !important;
+    margin-bottom: 10px;
+}
+
+
+#Footer{
+    padding: 10rem 0 !important;
+
+    .left{
+        .offer{
+          
+            left: 87px !important;
+          
+        
+        }
+        img{
+            top: -136px !important;
+            left: 90px !important;
+        }
+        h1{
+            left: 14px !important;
+            position: absolute !important;
+            top: -29px !important;
+        }
+        .braclet{
+            display: none;
+        }
+    }
+    .right{
+        right: 90px;
+    }
+}
+
+.shop-div{    //in detail page
+    width: 66% !important; 
+}
+
+
+#Detail{
+    .add-btn{
+        padding: 38px 27px;
+        width: 50%;
+        margin-left: 20px !important;
+    }
+    .count-area{
+        width: 23% !important;
+    }
+    .tab-menu-top{
+        
+    }
+}
+
+.second-footer{
+       
+        .right{
+            button{
+                padding: 8px 20px;
+                top: 184px;
+                right: 13px;
+            }
+        }
+
+        .divider-line{
+            display: none;
+        }
+ }
+
+.third-footer{
+        .main-categories{
+            display: block !important;
+        }
+        a{
+            display: flex;
+            flex-direction: column;
+            display: block;
+        }
+}
+
+
+#footerMain{
+h4{
+        margin-bottom: 10px;
+        margin-top: 16px;
+      }
+      
+}
+
+
+
+   
+
+    #footerEnd{
+        p{
+            font-size: 10px;
+            text-align: center;
+        }
+        img{
+            display: none;
+        }
+    }
+
+    #PhoneFooter{
+        display: block !important;
+    }
+
+    #Shop{
+        .home-shop{
+            width: 33% !important;
+        }
+       
+    }
+    #ProductsShop{
+        .left{
+            display: none !important;
+        }
+        .category-products{
+            .box{
+                img{
+                    width: 100%;
+                }
+            }
+        }
+        .change-page{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+          span{
+            width: 10%;
+            display: inline-block;
+            height: 30px !important;
+            padding: 20px 20px !important;
+          }
+            
+        }
+    }
+} 
+

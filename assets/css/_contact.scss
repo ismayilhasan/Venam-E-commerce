@@ -1,0 +1,91 @@
+#Contact {
+    padding: 6rem 0;
+    background-color: #f2f2f2;
+
+    .div {
+        background-color: #fff;
+        width: 20%;
+        border-radius: 16px;
+        padding: 10px 40px;
+
+        p {
+            a {
+                color: #6d6c6c;
+                transition: .5s;
+
+                &:hover {
+                    color: #ff6000;
+                }
+            }
+
+        }
+
+        .contact {
+            color: #ff6000;
+        }
+
+    }
+}
+
+
+
+
+#Information {
+    padding: 4rem 0;
+
+    .box {
+        border: 1px solid #e2e2e2;
+        padding: 40px;
+        height: 300px;
+
+        .location-icon {
+
+            padding: 20px 22px;
+            font-size: 20px;
+            background-color: #ff6000;
+            border-radius: 90%;
+            color: white;
+        }
+
+        p {
+            color: #7d7d7d;
+        }
+    }
+}
+
+
+
+#TalkUs {
+    padding: 2rem 0;
+
+    .top {
+        .talk {
+            color: #ff6000;
+        }
+    }
+
+    .bottom {
+        input {
+            margin: 0 10px;
+
+            padding: 10px 60px;
+            outline: none;
+            border: 1px solid #e2e2e2;
+            border-radius: 6px;
+
+        }
+
+        textarea {
+            border: 1px solid #e2e2e2;
+            border-radius: 6px;
+        }
+
+        .submit {
+            background-color: #ff6000;
+            outline: none;
+            border-radius: 6px;
+            color: #fff;
+        }
+
+    }
+}

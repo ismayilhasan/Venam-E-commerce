@@ -1,0 +1,113 @@
+#elementor_create {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#elementor_create .build-elementor-cart {
+  width: 40%;
+  border: 1px solid #fff;
+  padding: 41px 40px 30px 40px;
+  background-color: #fff;
+  background-image: url(/assets/photos/phone-2.jpg);
+  background-position: top right;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+#elementor_create .build-elementor-cart p {
+  color: #7d7d7d;
+  width: 60%;
+}
+#elementor_create .build-elementor-cart a {
+  padding: 10px 38px;
+  background-color: #0465D2;
+  color: #fff;
+  border-radius: 6px;
+  transition: 0.5s;
+}
+#elementor_create .build-elementor-cart a:hover {
+  background-color: #252525;
+  color: #fff;
+}
+#elementor_create .create-customize-cart {
+  width: 40%;
+  padding: 41px 40px 30px 40px;
+  background-color: #fff;
+  background-image: url(/assets/photos/backgorun_white_img.jpg);
+  background-position: top right;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+#elementor_create .create-customize-cart p {
+  color: #7d7d7d;
+  width: 60%;
+}
+#elementor_create .create-customize-cart a {
+  padding: 10px 38px;
+  background-color: #0465D2;
+  color: #fff;
+  border-radius: 6px;
+  transition: 0.5s;
+}
+#elementor_create .create-customize-cart a:hover {
+  background-color: #252525;
+  color: #fff;
+}
+
+#emptyBasket a {
+  padding: 17px 25px;
+  color: #fff;
+  border-radius: 4px;
+  background-color: #ff6000;
+  font-size: 14px;
+  font-weight: 600;
+  text-transform: uppercase;
+  width: 13%;
+  text-align: center;
+  margin-left: 600px;
+  display: inline-block;
+}
+
+#table_section {
+  margin-top: 40px;
+}
+#table_section .th {
+  width: 50px;
+  height: 0px;
+}
+#table_section .th-name {
+  width: 190px;
+}
+#table_section .th-price {
+  width: 105px;
+}
+#table_section .td-img {
+  width: 50px;
+}
+#table_section .td-count {
+  width: 160px;
+}
+#table_section i {
+  color: #7d7d7d;
+}
+#table_section #currentCount {
+  font-size: 20px;
+}
+
+#totalBox {
+  padding: 50px 35px;
+  border-radius: 5px;
+  text-align: center;
+  margin-right: 15rem;
+  background-color: #f2f2f2;
+  width: 400px;
+  height: 300px;
+  margin-top: 15px;
+  margin-left: 70%;
+  margin-bottom: 10px;
+}
+#totalBox .total-div .sub-total {
+  border: 1px solid #e2e2e2;
+}
+#totalBox .total-div .total {
+  border: 1px solid #e2e2e2;
+}/*# sourceMappingURL=cart.css.map */

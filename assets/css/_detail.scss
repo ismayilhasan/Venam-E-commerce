@@ -1,0 +1,327 @@
+#Detail {
+    padding: 3rem 0;
+
+    .img-slider {
+        .slider-item {
+            cursor: pointer;
+            border: 1px solid #8c8c8c46;
+            margin-right: 3px;
+            height: 150px;
+            width: 130px;
+
+            &:hover {
+                border-color: #ff6000;
+            }
+
+        }
+    }
+
+    .stock {
+        padding: 0 10px;
+        border-radius: 4px;
+        margin-bottom: 0;
+        display: inline-block;
+        margin-right: 10px;
+        font-size: 12px;
+        color: #252525;
+        background-color: #f2f2f2;
+    }
+
+    .stars {
+        color: #ff6000;
+        font-size: 12px;
+    }
+
+    .review {
+        font-size: 20px;
+        margin-left: 10px;
+    }
+
+    .price {
+        color: #ff6000;
+    }
+
+    .main {
+        margin-right: 20rem;
+
+        .countdown {
+            div {
+                display: flex;
+                flex-wrap: nowrap;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+                box-shadow: 1px 1px 15px rgb(0 0 0 / 25%);
+                width: 54px;
+                height: 48px;
+                background-color: #252525;
+                color: #fff;
+            }
+        }
+    }
+
+    p {
+        color: black;
+    }
+
+    .count {
+        color: #ff6000;
+    }
+
+    .count-area {
+        border: 1px solid #e2e2e2;
+        width: 15%;
+        padding: 10px 20px;
+        color: #7d7d7d;
+    }
+
+    .add-btn {
+        padding: 18px 70px;
+        background-color: #ff6000;
+        color: #fff;
+        outline: none;
+        border: 1px solid #ff6000;
+        border-radius: 5px;
+    }
+
+    .compare,
+    .wishlist {
+        color: black;
+    }
+
+
+    .dvider {
+        background-color: #e2e2e2;
+        width: 100%;
+        height: 1px;
+    }
+
+
+
+
+    .size-ask-delivery {
+        p {
+            color: black;
+        }
+    }
+
+
+    .estimated-delivery {
+        p {
+            color: black;
+        }
+
+        .date {
+            font-size: 15px;
+        }
+    }
+
+    .viewing {
+        p {
+            color: black;
+
+            span {
+                font-size: 20px;
+                color: #7d7d7d;
+            }
+        }
+    }
+
+    .bottom {
+        p {
+            color: black;
+            font-size: 15px;
+
+            span {
+                color: #7d7d7d;
+                font-size: 15px;
+            }
+        }
+
+        .facebook {
+            width: 36px;
+            height: 34px;
+            background-color: #025BBF;
+            color: #fff;
+            border-radius: 100%;
+            cursor: pointer;
+            padding: 10px 13px;
+        }
+
+        .twitter {
+            width: 36px;
+            height: 34px;
+            background-color: #1da1f2;
+            color: #fff;
+            border-radius: 100%;
+            cursor: pointer;
+            padding: 10px 10px;
+        }
+
+        .email {
+            width: 36px;
+            height: 34px;
+            background-color: black;
+            color: #fff;
+            border-radius: 100%;
+            cursor: pointer;
+            padding: 10px 10px;
+        }
+
+        .pinterest {
+            width: 36px;
+            height: 34px;
+            background-color: #e60023;
+            color: #fff;
+            border-radius: 100%;
+            cursor: pointer;
+            padding: 10px 10px;
+        }
+
+        .linkedin {
+            height: 34px;
+            background-color: #0077b5;
+            color: #fff;
+            border-radius: 100%;
+            cursor: pointer;
+            padding: 10px 13px;
+            width: 36px;
+        }
+
+        .odnoklassniki {
+            height: 34px;
+            background-color: #ee8208;
+            color: #fff;
+            border-radius: 100%;
+            cursor: pointer;
+            padding: 10px 12px;
+            width: 36px;
+        }
+
+        .whatsapp {
+            height: 34px;
+            background-color: #25d366;
+            color: #fff;
+            border-radius: 100%;
+            cursor: pointer;
+            padding: 10px 12px;
+            width: 36px;
+        }
+
+        .telegram {
+            background-color: #08c;
+            color: #fff;
+            border-radius: 100%;
+            cursor: pointer;
+            padding: 10px 11px;
+            width: 36px;
+            height: 34px;
+        }
+
+        .viber {
+            background-color: #7360f2;
+            color: #fff;
+            border-radius: 100%;
+            cursor: pointer;
+            padding: 10px 10px;
+            width: 36px;
+            height: 34px;
+        }
+
+        .vk {
+            background-color: #7360f2;
+            color: #fff;
+            border-radius: 100%;
+            cursor: pointer;
+            padding: 10px 10px;
+            width: 36px;
+            height: 34px;
+        }
+    }
+
+}
+
+
+#Tab-menus {
+    .tab-menu-top {
+        height: 250px;
+
+        button {
+            border: none;
+            outline: none;
+            background-color: transparent;
+            color: 20px;
+            font-size: #252525;
+            font-weight: bolder;
+            cursor: pointer;
+        }
+    }
+}
+
+
+#Reviews{
+ margin-top: 20px;
+    bar
+   .top{
+    border-bottom: 1px solid #e2e2e2;
+   }
+   .bottom{
+    .box{
+        .left{
+            margin-bottom: 70px;
+            img{
+                border-radius: 100%;
+                object-fit: contain;
+            }
+        }
+
+        .right{
+           
+            .stars{
+                i{
+                    color: #ee8208;
+                }
+            }
+            .comment{
+                width: 100%;
+                p{
+                    color: #7d7d7d;
+                }
+            }
+        }
+    }
+
+    select{
+        border-color: #e2e2e2;
+    }
+    .requried{
+        color: #e60023;
+    }
+    input{
+        padding: 10px 20px;
+        border-radius: 5px;
+        border-color: #e2e2e2;
+    }
+    .checkbox{
+        span{
+            color: #e2e2e2;
+        }
+    }
+    button{
+        margin-top: 15px;
+        padding: 11px 49px;
+        background-color: #ff6000;
+        color: white;
+        border: none;
+        border-radius: 5px;
+    }
+    .stars2{
+        background-color: transparent;
+        color: #252525;
+    }
+    p{
+        font-weight: 500px;
+    }
+   }
+
+}
