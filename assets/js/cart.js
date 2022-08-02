@@ -32,6 +32,7 @@ function del(element,prodcutId)
    
     localStorage.setItem('basket',JSON.stringify(basket))
     element.parentElement.parentElement.remove()
+    ShowCount()
 }
 
                 //TABLE FUNCTIONS END

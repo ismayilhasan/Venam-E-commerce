@@ -615,6 +615,59 @@ ol, ul {
   border: 1px solid #e2e2e2;
 }
 
+#productSliderCart .box .box-img {
+  position: relative;
+}
+#productSliderCart .box img {
+  width: 100%;
+}
+#productSliderCart .box .stars {
+  width: 80%;
+  margin: auto;
+  color: #ff6000;
+}
+#productSliderCart .box h6 {
+  margin-left: 18px;
+  margin-top: 10px;
+}
+#productSliderCart .box .bottom-hover {
+  position: absolute;
+  bottom: 0;
+  left: 0px;
+  width: 100%;
+  opacity: 0;
+  transition: 0.5s;
+}
+#productSliderCart .box .bottom-hover button {
+  background-color: #303030;
+  color: #fff;
+  font-size: 13px;
+  padding: 8px 43px;
+  width: 100%;
+}
+#productSliderCart .box .bottom-hover {
+  position: absolute;
+}
+#productSliderCart .box .bottom-hover .wishlist {
+  background-color: #fff;
+  border-bottom: 1px solid black;
+  height: 10%;
+}
+#productSliderCart .box .bottom-hover .wishlist a {
+  color: black;
+}
+#productSliderCart .box .bottom-hover .wishlist a svg {
+  width: 30px;
+  -o-object-fit: contain;
+     object-fit: contain;
+  display: block;
+  margin: 0 10px;
+}
+#productSliderCart .box:hover .bottom-hover {
+  opacity: 1;
+  bottom: 15px;
+}
+
 #MyAccount {
   background-color: #f2f2f2;
   padding: 4rem 0;

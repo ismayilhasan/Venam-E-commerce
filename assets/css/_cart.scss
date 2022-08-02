@@ -136,3 +136,75 @@
         }
     }
 }
+
+
+#productSliderCart{
+    .box{
+        
+        .box-img {
+            position: relative;
+
+        }
+        img{
+            width: 100%;
+        }
+
+        .stars{
+            width: 80%;
+            margin: auto;
+            color: #ff6000;
+        }
+        h6{
+            margin-left: 18px;
+            margin-top: 10px;
+        }
+        .bottom-hover {
+            position: absolute;
+            bottom: 0;
+            left: 0px;
+            width: 100%;
+            opacity: 0;
+            transition: .5s;
+
+            button {
+                background-color: #303030;
+                color: #fff;
+                font-size: 13px;
+                padding: 8px 43px;
+                width: 100%;
+
+            }
+        }
+
+        .bottom-hover {
+            position: absolute;
+
+            .wishlist {
+                background-color: #fff;
+                border-bottom: 1px solid black;
+                height: 10%;
+
+                a {
+                    color: black;
+                }
+
+                a {
+                    svg {
+                        width: 30px;
+                        object-fit: contain;
+                        display: block;
+                        margin: 0 10px;
+
+                    }
+                }
+            }
+
+        }
+
+        &:hover .bottom-hover {
+            opacity: 1;
+            bottom: 15px;
+        }
+
+    }
+}
