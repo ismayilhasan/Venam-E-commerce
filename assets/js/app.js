@@ -5,8 +5,8 @@ let category_drop = document.querySelector('.all-categories')
 let cart_icon = document.querySelector('#cart')
 let add_btns = document.querySelectorAll('#AddtoCart')
 var scrool_btn = document.querySelector('#scroolbtn')
-                    
- 
+let hamburger_menu_icon = document.querySelector('#MenuIcon')                  
+let close_sidebar_icon = document.querySelector('#closeIcon')
 
                       // variables end
 
@@ -29,6 +29,37 @@ if (localStorage.getItem('basket') === null) {
 
 
 //Events
+
+
+window.onscroll = function()
+{
+  console.log("frf");
+  if(document.body.scrollTop > 100 || document.documentElement.scrollTop > 100)
+  {
+    let scrool_btn = document.querySelector('#scroolbtn')
+    scrool_btn.style.opacity = '1'; 
+  }
+  else{
+    let scrool_btn = document.querySelector('#scroolbtn')
+    scrool_btn.style.opacity = '0';
+  }
+}
+
+
+hamburger_menu_icon.addEventListener('click',() => {
+  let sidebar = document.querySelector('#SidebarMobile')
+  sidebar.classList.add('active-sidebar')
+  close_sidebar_icon.style.transform = 'rotate(360deg)'
+})
+
+
+
+close_sidebar_icon.addEventListener('click',() => {
+  let sidebar = document.querySelector('#SidebarMobile')
+  sidebar.classList.remove('active-sidebar')
+  close_sidebar_icon.style.transform = 'rotate(0  )'
+})
+
 usd_drop.addEventListener('click', () => {
   let usd_drop_down = document.querySelector('.usd-drop-down')
   usd_drop_down.classList.toggle('d-none')

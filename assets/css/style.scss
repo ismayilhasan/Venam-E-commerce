@@ -157,13 +157,13 @@
 
 
         .icons {
-            margin-left: 70px;
+            margin-left: 75px;
             position: relative;
-
+            
             svg {
-                width: 15%;
+                width: 19%;
                 height: 20%;
-                margin-right: 9px;
+                margin-right: 1px;
 
                 &::before {
                     content: '0';
@@ -179,7 +179,7 @@
                 border-radius: 100%;
                 position: absolute;
                 top: -5px;
-                left: 42px;
+                left: 31px;
                 background-color: #F7BA01 !important;
                 height: 19px;
                 width: 16px;
@@ -192,19 +192,19 @@
                 border-radius: 100%;
                 position: absolute;
                 top: -5px;
-                left: 76px;
-                background-color: #F7BA01 !important;
+                left: 56px;
                 height: 19px;
                 width: 16px;
                 font-size: 12px;
                 text-align: center;
+                background-color: rgb(247, 186, 1) !important;
             }
 
             .span4 {
                 border-radius: 100%;
                 position: absolute;
                 top: -5px;
-                left: 107px;
+                left: 79px;
                 background-color: #F7BA01 !important;
                 height: 19px;
                 width: 16px;
@@ -397,6 +397,60 @@
 
 //HEADER - END  
 
+
+
+#SidebarMobile{
+    background-color: #202020;
+    padding: 0px 0;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    z-index: 11;
+    width: 0;
+    visibility: hidden;
+    opacity: 0;
+    transition: .5s;
+    .top{
+        padding: 2rem 0;
+        i{
+            color: #fff;
+            font-size: 30px;
+            font-weight: bold;
+            position: absolute;
+            z-index: 13;
+            top: 32px;
+            right: 35px;
+            transition: 1s;
+           
+        }
+    }
+    .bottom{
+        margin-top: 10px;
+        .tab{
+            color: #fff;
+            background-color: #202020;
+            width: 20%;
+            text-align: center;
+            padding: 5px 10px;
+        }
+    }
+    .content{
+      .others{
+        color: #fff;
+      }
+        i{
+            color: #fff;
+            background-color: #252525;
+            font-size: 20px;
+            padding: 5px 10px;
+        }
+        .home{
+            color: #ff6000 !important;
+        }
+    }
+}
 
 
 //SLIDER START
@@ -1381,7 +1435,11 @@
     display: block;
 }
 
-
+.active-sidebar{
+    opacity: 1 !important;
+    visibility: visible !important;
+    width: 100% !important;
+}
 
 
 .timer {
