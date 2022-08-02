@@ -370,6 +370,137 @@ ol, ul {
   margin-top: 10px;
 }
 
+.menu-nav {
+  position: relative;
+  display: flex;
+  justify-content: flex-end;
+}
+.menu-nav .nav-links {
+  display: flex;
+  align-items: center;
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+.menu-nav .nav-links .menu-item {
+  display: block;
+}
+.menu-nav .nav-links .menu-item > a {
+  display: flex;
+  align-items: center;
+  height: 78px;
+  position: relative;
+  font-size: 14px;
+  font-weight: 500;
+  text-transform: uppercase;
+  color: #fff;
+  padding: 0 15px;
+}
+.menu-nav .nav-links .menu-item > a:hover::before {
+  background-color: #f7ba01;
+  opacity: 1;
+}
+.menu-nav .nav-links .menu-item > a::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  right: 0;
+  height: 4px;
+  width: 100%;
+  bottom: 0;
+  border-radius: 3px 3px 0 0;
+  transition: all 0.3s ease-out 0s;
+  opacity: 0;
+}
+.menu-nav .nav-links .menu-item > a i {
+  margin-left: 10px;
+}
+.menu-nav .nav-links .menu-item:hover .submenu,
+.menu-nav .nav-links .menu-item:hover .mega-menu {
+  opacity: 1;
+  visibility: visible;
+  transform: scale(1);
+}
+.menu-nav .nav-links .menu-item .mega-menu {
+  padding: 0 !important;
+}
+.menu-nav .nav-links .menu-item .mega-menu-row {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  width: 100%;
+}
+.menu-nav .nav-links .menu-item .mega-menu-item {
+  padding: 20px !important;
+}
+.menu-nav .nav-links .menu-item .mega-menu-item > a {
+  display: block;
+  margin: 0 0 15px;
+  color: #252525;
+  font-size: 16px;
+  font-weight: 500;
+}
+.menu-nav .nav-links .menu-item .mega-menu-item ul {
+  list-style-type: none;
+  padding: 0;
+}
+.menu-nav .nav-links .menu-item .mega-menu-item ul li {
+  padding: 7px 0;
+  font-size: 13px;
+}
+.menu-nav .nav-links .menu-item .mega-menu-item ul li a {
+  color: #6e6e6e;
+  font-weight: 300;
+}
+.menu-nav .nav-links .menu-item .mega-menu .menu-banner {
+  background-position: bottom center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 440px;
+  height: 100%;
+  margin-left: auto;
+}
+.menu-nav .nav-links .menu-item .submenu,
+.menu-nav .nav-links .menu-item .mega-menu {
+  position: absolute;
+  z-index: 9;
+  background-color: #fff;
+  border-radius: 0;
+  border: none;
+  box-shadow: 0px 13px 25px -12px rgba(0, 0, 0, 0.25);
+  display: block;
+  left: 0;
+  opacity: 0;
+  padding: 18px 0;
+  right: 0;
+  top: 100%;
+  visibility: hidden;
+  min-width: 230px;
+  border: 1px solid #f5f5f5;
+  background: #ffffff;
+  margin: 0;
+  transform: scale(1, 0);
+  transform-origin: 0 0;
+  transition: all 0.3s ease-in-out;
+  list-style: none;
+}
+.menu-nav .nav-links .menu-item .submenu li {
+  text-align: left;
+  cursor: pointer;
+}
+.menu-nav .nav-links .menu-item .submenu li:hover > a {
+  color: #0163d2;
+}
+.menu-nav .nav-links .menu-item .submenu li > a {
+  padding: 0 10px 0 25px;
+  line-height: 33px;
+  font-weight: 400;
+  font-size: 14px;
+  text-transform: capitalize;
+  transition: all 0.3s ease-in-out;
+  color: #7d7d7d;
+}
+
 #elementor_create {
   display: flex;
   justify-content: center;
@@ -1262,7 +1393,6 @@ ol, ul {
 #Header .second .searching-category .input {
   width: 40%;
   padding: 13px 0;
-  outline: none;
 }
 #Header .second .searching-category .input input {
   width: 100%;
@@ -1271,13 +1401,13 @@ ol, ul {
   font-size: 13px;
   height: 47px;
   background: #fff;
-  border: 1px solid gray;
+  border: 1px solid #e2e2e2;
 }
 #Header .second .searching-category .category {
   width: 30%;
   position: relative;
   height: 47px;
-  border: 1px solid gray;
+  border: 1px solid #e2e2e2;
   border-left: none;
 }
 #Header .second .searching-category .category span {
@@ -1320,7 +1450,7 @@ ol, ul {
   border-radius: 100%;
   position: absolute;
   top: -5px;
-  left: 31px;
+  left: 41px;
   background-color: #F7BA01 !important;
   height: 19px;
   width: 16px;
@@ -1331,7 +1461,7 @@ ol, ul {
   border-radius: 100%;
   position: absolute;
   top: -5px;
-  left: 56px;
+  left: 70px;
   height: 19px;
   width: 16px;
   font-size: 12px;
@@ -1341,8 +1471,8 @@ ol, ul {
 #Header .second .icons .span4 {
   border-radius: 100%;
   position: absolute;
-  top: -5px;
-  left: 79px;
+  top: -7px;
+  left: 98px;
   background-color: #F7BA01 !important;
   height: 19px;
   width: 16px;
@@ -1370,6 +1500,7 @@ ol, ul {
   align-items: center;
   background-color: #025BBF;
   width: 250px;
+  height: 78px;
   padding: 25px 0;
   cursor: pointer;
   border: none;
