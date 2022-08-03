@@ -615,6 +615,10 @@ ol, ul {
   border: 1px solid #e2e2e2;
 }
 
+#miniCategory .categories p {
+  color: #7d7d7d;
+}
+
 #productSliderCart .box .box-img {
   position: relative;
 }
@@ -1380,6 +1384,10 @@ ol, ul {
 }
 #Reviews .bottom p {
   font-weight: 500px;
+}
+
+#scroolbtn {
+  cursor: pointer;
 }
 
 #headerPhone {

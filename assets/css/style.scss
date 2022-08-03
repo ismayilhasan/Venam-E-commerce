@@ -12,6 +12,11 @@
 
 // Header Start
 
+
+#scroolbtn{
+    cursor: pointer;
+}
+
 #headerPhone {
     display: none;
 }
@@ -400,7 +405,7 @@
 //HEADER - END  
 
 
-
+//SIDEBAR START
 #SidebarMobile{
     background-color: #202020;
     padding: 0px 0;
@@ -453,7 +458,7 @@
         }
     }
 }
-
+// SIDEBAR END
 
 //SLIDER START
 
